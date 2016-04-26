@@ -1,0 +1,134 @@
+ tr{
+	display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td{
+	box-sizing: border-box;
+	display: table-cell;	
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 15px;
+	border-color: #13567c;
+	margin : 20px auto;
+	/*width : 500px;*/
+}
+table {
+    border-collapse: collapse;
+	overflow:auto;
+}
+
+
+/******** NEW STYLE ********/
+
+#sudoku_grid table {
+    border-collapse: collapse;
+    overflow: auto;
+    border: 2px solid #13567C;
+    margin: 0 auto;
+}
+
+#sudoku_grid table tr:nth-child(3n) {
+	border-bottom: 2px solid #13567C;
+}
+
+#sudoku_grid table tr td {
+	border: 1px solid #eee;
+	padding: 0;
+}
+
+#sudoku_grid table tr td:nth-child(3n) {
+    border-right: 2px solid #13567C;
+}
+
+#sudoku_grid input.grid_cell {
+    outline: none;
+    margin: 0;
+    border: none;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    background: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+	text-align: center;
+	color: #333;
+}
+    
+#sudoku_grid input.editable {
+	color: #33F;
+}
+
+#sudoku_grid input.right {
+	color: #3D3;
+}
+
+#sudoku_grid input.wrong {
+	color: #F33;
+}
+
+#sudoku_grid input.blocked {
+	/*color: #FFF;*/
+	font-size: 0px;
+}
+
+.game_buttons {
+	display: none;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.game_buttons ul {
+	padding: 0;
+}
+
+.game_buttons ul li {
+	display: inline-block;
+}
+
+.game_buttons ul li a {
+    background: #424A5D;
+    font-size: 20px;
+    float: left;
+    padding: 5px 15px;
+    margin: 0;
+}
+
+.game_buttons ul li span {
+	display: inline-block;
+	color: #428BCA;
+    background: #424A5D;
+    font-size: 20px;
+    float: left;
+    padding: 5px 15px;
+    margin: 0;
+    min-width: 75px;
+}
+#welcome_msg{
+	text-align: center;
+}
+
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/******** // NEW STYLE ********/

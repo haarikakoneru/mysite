@@ -1,0 +1,21 @@
+.form-edit{
+    width:80%;
+    margin: 30px;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.edit-wrap {
+    padding: 20px;
+}
+.form-edit-heading{
+margin: 0;
+padding: 20px 20px;
+background: #68dff0;
+border-radius: 5px 5px 0 0;
+-webkit-border-radius: 5px 5px 0 0;
+color: #fff;
+font-size: 20px;
+text-transform: uppercase;
+font-weight: 300;
+}

@@ -1,0 +1,29 @@
+
+.login-wrap {
+	padding: 20px;
+}
+.login-wrap .registration {
+	text-align: center;
+}
+.login-social-link {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+#lblsecretQBody,#txtsecretAns{
+    width: 69.4%;
+    display: inline-block;
+    
+}
+#lblsecretQ,#lblsecretA{
+    width: 30%;
+    display: inline-block;
+    
+}
+#email{
+    margin-bottom: 5px;
+    //width: 80.5%;
+}
+.error{
+    color: red;
+}
